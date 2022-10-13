@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+.header {
+    background-color: #007dfe;
+    color: #ffffff;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.header .d-flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#fga-logo{
+    width: 90px;
+    height: 90px;
+    margin-left: 20px;
+    border-radius: 50%;
+    display: block;
+    justify-content: end;
+}
+#hacktiv8-logo{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: block;
+    justify-content: start;
+}
+.content{
+    padding: 20% 20px 20% 20px; 
+    text-align: center;
+}
+.content h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    padding: 5px;
+}
+.content h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    padding: 5px;
+}
+.content .danger{
+    background-color: #ff0000;
+}
+.content .standby{
+    background-color: #ff9f00;
+}
+.content .safe{
+    background-color: #00ff00;
+}
+.footer {
+    background-color: #007dfe;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* set footer to bottom */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
